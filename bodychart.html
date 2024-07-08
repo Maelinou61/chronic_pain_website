@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS Style -->
+    <link rel="stylesheet" type="text/css" href="sources/css/stylechart.css">
+
+    <!-- Font -->
+
+    <!-- JS Script -->
+    <script src="sources/js/bodychart.js" defer></script>    
+
+    <!-- Title -->
+    <title>form</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>Questions</h1>
+    </header>
+
+    <!-- Questions -->
+    <section>
+      <form id="question" action="result.html">
+
+
+        
+        <span id="bodyChart">
+          <h2>Pain location chart</h2>
+
+          <div class="image-container">
+            <img src="sources/images/body_map4.jpg" id="bodyImage" useMap="#painMap" style="object-position: 0px 0px; transform: scale(1); transform-origin: 'top left';"> 
+          </div>
+
+          <map name="painMap" id="zoomMap" onclick="displayClickDot(event)" style="object-position: 0px 0px;">
+            <area shape="poly" coords="0,0,0,500,300,500,300,0" alt="all">
+          </map>
+          <br>
+          
+
+          <input id="addLocation" type="button" value="Add a location"/>
+
+          <input id="moveUp" type="button" value="/\" onclick="moveZoom(0,5)"/>          
+          <input id="moveDown" type="button" value="\/" onclick="moveZoom(0,-5)"/>          
+          <input id="moveLeft" type="button" value="<" onclick="moveZoom(5,0)"/>          
+          <input id="moveRight" type="button" value=">" onclick="moveZoom(-5,0)"/>     
+          <input id="moveLeft" type="button" value="+" onclick="Zoom(1)"/>          
+          <input id="moveRight" type="button" value="-" onclick="Zoom(-1)"/>
+          
+
+          <input type="text" id="selectedArea" name="painLocation" readonly>
+          <input type="text" id="painLocations" name="painLocation" readonly>
+          <div id="clickDot"></div>
+        </span>
+        <br>
+        <input type="range" min="5" max="100" value="10" id="slider">
+        <br>
+        <button type="submit">Validate answer</button>
+        <button type="reset">Erase</button>
+      </form>
+    </section>
+    <br>
+
+    <!-- Footer -->
+    <footer>
+      <hr>
+      Footer - Idk what to put here
+      <br>
+    </footer>
+  </body>
+</html>
