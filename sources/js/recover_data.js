@@ -63,7 +63,7 @@ function displayResults(data) {
         img.src = base64Image;
         img.onload = function() {
             //Cropped the image to display it on the center of the page
-            var desiredWidth = img.width - 800;
+            var desiredWidth = img.width - 500;
             var desiredHeight = img.height - 210; 
 
             var canvas = document.createElement('canvas');
