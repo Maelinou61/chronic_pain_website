@@ -94,7 +94,7 @@ function formatDate(timestamp) {
     }
     var formattedDate = new Date(timestamp);
     var options = { year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', hour12: false };
-    return formattedDate.toLocaleDateString('en-US', options); // Utilise 'en-US' pour l'anglais (États-Unis)
+    return formattedDate.toLocaleDateString('en-US', options); 
 }
 
 function displayResults(user, data) {
@@ -110,8 +110,8 @@ function displayResults(user, data) {
         var img = new Image();
         img.src = base64Image;
         img.onload = function() {
-            var desiredWidth = img.width - 0;
-            var desiredHeight = img.height - 0; 
+            var desiredWidth = img.width - 800;
+            var desiredHeight = img.height - 210; 
 
             var canvas = document.createElement('canvas');
             canvas.width = desiredWidth;

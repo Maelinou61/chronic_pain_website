@@ -1,12 +1,12 @@
 'use strict'
 var header = `
-    <h1><a href="accueil.html">Project CAL-CP</a></h1>
+    <h1><a href="accueil.html">EUREKA</a></h1>
       <nav>
         <ul>
-          <li><a href="CALCP.html">What is CAL-CP?</a></li>
-          <li><a href="Group.html">About us</a></li>
-          <li><a href="tarif.html">Tarif</a></li>
-          <li><a href="autreidée.html">...</a></li>
+          <li><a href="not_implemented.html">More detail about CAL-CP</a></li>
+          <li><a href="not_implemented.html">About us</a></li>
+          <li><a href="not_implemented.html">Tarif</a></li>
+          <li><a href="not_implemented.html">...</a></li>
         </ul>
       </nav>
       <a href="login.html" class="button">Login</a>
@@ -20,10 +20,10 @@ var footer = `
             <li>
                 <h2>Quick Links</h2>
                 <ul class="souslist">
-                    <li><a href="CALCP.html">What is CAL-CP?</a></li>
-                    <li><a href="Group.html">About us</a></li>
-                    <li><a href="tarif.html">Tarif</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="not_implemented.html">What is CAL-CP?</a></li>
+                    <li><a href="not_implemented.html">About us</a></li>
+                    <li><a href="not_implemented.html">Tarif</a></li>
+                    <li><a href="not_implemented.html">Contact</a></li>
                 </ul>
             </li>
             <li>
@@ -34,9 +34,9 @@ var footer = `
             <li>
                 <h2>Follow Us</h2>
                 <ul class="souslist">
-                  <li><a href="#"><img src="sources/icons/facebook.png" alt="Facebook"></a></li>
-                  <li><a href="#"><img src="sources/icons/twitter.png" alt="Twitter"></a></li>
-                  <li><a href="#"><img src="sources/icons/linkedin.png" alt="LinkedIn"></a></li>
+                  <li><a href="sources/images/icons/facebook"><img src="sources/images/icons/facebook.png" alt="Facebook"></a></li>
+                  <li><a href="#"><img src="sources/images/icons/twitter.png" alt="Twitter"></a></li>
+                  <li><a href="#"><img src="sources/images/icons/linkedin.jpg" alt="LinkedIn"></a></li>
                 </ul>
             </li>
         </ul>

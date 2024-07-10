@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
 function displayUserInfo(user) {
     var userInfoDiv = document.getElementById("user-info");
     if (user) {
-        var userInfoHtml = "<h2 style='color: red; text-align: center;'>User Information</h2>";
+        var userInfoHtml = "<h1 style='text-align: center;'>User Information</h1>";
         userInfoHtml += "<p style='text-align: center;'><strong>First Name:</strong> " + user.first_name + "</p>";
         userInfoHtml += "<p style='text-align: center;'><strong>Last Name:</strong> " + user.last_name + "</p>";
         userInfoHtml += "<p style='text-align: center;'><strong>Email:</strong> " + user.email + "</p>";
@@ -63,8 +63,8 @@ function displayResults(data) {
         img.src = base64Image;
         img.onload = function() {
             //Cropped the image to display it on the center of the page
-            var desiredWidth = img.width - 0;
-            var desiredHeight = img.height - 0; 
+            var desiredWidth = img.width - 800;
+            var desiredHeight = img.height - 210; 
 
             var canvas = document.createElement('canvas');
             canvas.width = desiredWidth;
