@@ -110,7 +110,7 @@ function displayResults(user, data) {
         var img = new Image();
         img.src = base64Image;
         img.onload = function() {
-            var desiredWidth = img.width - 800;
+            var desiredWidth = img.width - 500;
             var desiredHeight = img.height - 210; 
 
             var canvas = document.createElement('canvas');
