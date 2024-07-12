@@ -50,3 +50,6 @@ To connect Chronic Pain Management to the MySQL database running on the Apache s
 -	Rename to .env: Once you've updated the connection information, save the file and rename it to .env. This step is crucial for Chronic Pain Management to recognize and use your database configuration.
 
 By customizing the .env file, you ensure that Chronic Pain Management can establish a connection to your MySQL database and seamlessly retrieve and store data. If you ever need to change your database credentials or configuration, simply update the .env file accordingly.
+
+**The link to our website**
+AWS link : http://ec2-3-124-191-146.eu-central-1.compute.amazonaws.com/load_files_ec2/accueil.html
